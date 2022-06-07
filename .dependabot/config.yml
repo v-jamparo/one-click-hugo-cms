@@ -1,7 +1,13 @@
 version: 1
 
+# backend:
+#   name: git-gateway
+#   branch: main
+
 backend:
-  name: git-gateway
+  name: github
+  repo: v-jamparo/one-click-hugo-cms # Path to your GitHub repository
+  # optional, defaults to master
   branch: main
 
 update_configs:
