@@ -1,5 +1,9 @@
 version: 1
 
+backend:
+  name: git-gateway
+  branch: main
+
 update_configs:
   - package_manager: javascript
     directory: /
