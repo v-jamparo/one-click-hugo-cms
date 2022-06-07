@@ -8,7 +8,7 @@ backend:
   name: github
   repo: v-jamparo/one-click-hugo-cms # Path to your GitHub repository
   # optional, defaults to master
-  branch: main
+  branch: master
 
 update_configs:
   - package_manager: javascript
